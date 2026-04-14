@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Попередження про порушення</title>
+    <!-- Підключення шрифтів -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Overlay ефект для блокування фону -->
+    <div class="overlay">
+        
+        <div class="warning-modal">
+            <!-- Прогрес бар -->
+            <div class="progress-container">
+                <div class="progress-bar"></div>
+                <span class="progress-text">Спроба 1 з 3</span>
+            </div>
+
+            <!-- Іконка з анімацією -->
+            <div class="icon-shake">⚠️</div>
+
+            <!-- Текстовий контент -->
+            <h1>Порушення правил</h1>
+            <p class="main-message">Ви перемкнули вкладку браузера. Це суворо заборонено.</p>
+            <p class="sub-text">Продовжуючи навчання, ви погоджуєтесь з правилами тестування.</p>
+
+            <!-- Кнопки -->
+            <div class="actions">
+                <button class="btn-back">Повернутися до тесту</button>
+                <button class="btn-exit">Завершити спробу</button>
+            </div>
+        </div>
+        
+    </div>
+
+</body>
+</html>
